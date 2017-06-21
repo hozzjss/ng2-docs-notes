@@ -1,2 +1,6 @@
 # ng2-docs-notes
-Notes that I take while going through the Angular docs on https://angular.io/docs
+## Template Syntax
+* Template expressions and template statements
+
+   A template expression is about *getting* a value, and a template statement is about changing or *setting* a value through events.
+* 
