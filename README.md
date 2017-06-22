@@ -26,3 +26,14 @@
     > also Angular's template expression operators like `| ?.`
 
     > bitwise operators `& |`
+
+## Binding Expressions
+* From Component to view:
+    
+     > `{{ expression }} [target]="expression" bind-target="expression"`
+
+* From view to component:
+    > `(target)="expression" on-target="expression"`
+
+* Two-way
+    > `[(target)]="expression" bindon-target="expression"`
