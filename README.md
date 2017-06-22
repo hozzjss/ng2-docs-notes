@@ -37,3 +37,8 @@
 
 * Two-way
     > `[(target)]="expression" bindon-target="expression"`
+
+## Property Binding
+* Attribute binding
+    
+    > Attribute binding creates a new attribute so if the attribute is not declared already it declares and sets it
