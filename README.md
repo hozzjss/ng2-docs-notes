@@ -19,4 +19,10 @@
     > Just like pure functions same output for same input all the time.
 
 * Prohibited expressions
-    > any sort of expression that might changes tate like : `=` `++` `--` `+=` `-=` `new` `;` `,` 
+    > any sort of expression that might change state like : 
+    
+    > ```= ++ -- += -= new ; ,```
+    
+    > also Angular's template expression operators like `| ?.`
+
+    > bitwise operators `& |`
