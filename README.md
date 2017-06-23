@@ -42,3 +42,12 @@
 * Attribute binding
     
     > Attribute binding creates a new attribute so if the attribute is not declared already it declares and sets it
+
+## Structural Directives
+* ngFor
+
+    > try using trackBy context variable on ngfor if you reload your data set it to a function that takes 2 params index and object that returns whatever makes the object unique e.g. its id
+
+    > `trackByHeroes(index: number, hero: Hero): number { return hero.id; }`
+
+    > ```<div *ngFor="let hero of heroes; trackBy: trackByHeroes">({{hero.id}}) {{hero.name}}</div>```
